@@ -186,7 +186,7 @@ namespace Cost_Management.Services
             db.SaveChanges();
         }
         //新增表單
-        public void DBCreate(string formID, string formName, string formNumber,string RequireNumber, float circleID, string description, string nation, string exp_date
+        public void DBCreate(string formID, string formName, string formNumber,string RequireNumber, string circleID, string description, string nation, string exp_date
                                               , string location, string userID, string userName, string exp_type, string exp_attr, string currency, float QTY
                                               , string price, float amount, string tax, string invoice, string projectCode, string lmuser, string note, string picturename0, string picturename1, string picturename2, string DocumentsNumber)
         {

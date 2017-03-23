@@ -33,7 +33,7 @@ namespace Cost_Management.Models
 
             [DisplayName("*群序號:")]
             [Required(ErrorMessage = "請輸入群序號")]
-            public double circleID { get; set; }
+            public string circleID { get; set; }
 
             [DisplayName("*費用說明:")]
             [Required(ErrorMessage = "請輸入費用說明")]
